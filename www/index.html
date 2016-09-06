@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"></meta>
+    <meta http-equiv="Content-Security-Policy" content="default-src * 'unsafe-inline' 'unsafe-eval'"></meta>
+
+    <meta name="format-detection" content="telephone=no"></meta>
+    <meta name="msapplication-tap-highlight" content="no"></meta>
+    <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width"></meta>
+
+    <link rel=stylesheet type=text/css href=css/index.css></link>
+    <link rel="stylesheet" href="css/materialize.min.css"></link>
+
+    <script type='text/javascript' src=js/ux/jquery.min.js></script>
+    <script type='text/javascript' src=js/ux/mustache.min.js></script>
+    <script type='text/javascript' src=js/ux/materialize.min.js></script>
+
+    <script type='text/javascript' src=js/normalize.js></script>
+
+    <title>Notification Webhooks</title>
+</head>
+
+<body>
+
+    <div class="container">
+
+        <input type="text" id='input' placeholder="http://domain.webhook/"/>
+        <button id='record' class='waves-effect waves-light btn'> Record</button>
+        <button id='send-test' class='waves-effect waves-light btn'> Send test</button>
+
+    </div>
+
+
+    <script type=text/javascript src=cordova.js></script>
+    <script type='text/javascript' src=js/cordova/start.js></script>
+    <script type='text/javascript' src=js/webhook.js></script>
+
+</body>
+
+</html>

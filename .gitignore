@@ -1,0 +1,40 @@
+# Custom
+www/appconfig.js
+
+# Android
+platforms
+plugins
+
+# Emulator logs
+platforms/ios/cordova/console.log
+
+#OThers
+tmp
+.directory
+.DS_Store
+*.kate-swp
+.idea
+
+
+# From https://github.com/apache/cordova-android/blob/master/.gitignore
+
+.DS_Store
+gen
+proguard.cfg
+proguard.cfg
+proguard-project.txt
+.gradle
+tmp/**
+.metadata
+tmp/**/*
+Thumbs.db
+Desktop.ini
+*.tmp
+*.bak
+*.swp
+*.class
+*.jar
+*.iml
+.idea
+npm-debug.log
+/node_modules
