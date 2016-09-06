@@ -8,10 +8,20 @@ smartwatch.
 The companion app is written on top of the
 [Apache Cordova framework](https://cordova.apache.org/).
 
+![screens/screen-small.png](screens/screen-small.png)
+
 ## Plugins
 
 * [Notification listener](https://github.com/coconauts/NotificationListener-cordova)
 * [Background-mode](https://www.npmjs.com/package/cordova-plugin-background-mode)
+
+## Allow the app access to your notifications
+
+In order for the app to be able to pick up your phone notifications, you'll
+need to explicitly grant it permissions.
+
+Go to your phone settings, `Notifications`>`Notification access`, and tick
+the Notification-webhook box.
 
 ## References
 
